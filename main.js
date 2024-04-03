@@ -12,7 +12,8 @@ formulario.addEventListener('submit', (e) => {
         body: JSON.stringify({
             "Nombre": formulario.nombre.value,
             "Correo": formulario.correo.value,
-            "Telefono": formulario.telefono.value
+            "Telefono": formulario.telefono.value,
+            "Foto": formulario.foto.value
         })
     });
 })

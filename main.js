@@ -9,7 +9,7 @@ formulario.addEventListener('submit', (e) => {
         headers: {
             'Content-Type': 'application/json'
         },
-        body:JSON.stringify({
+        body: JSON.stringify({
             'Nombre Completo': 'Ejemplo de nombre',
             'Fecha de Nacimiento': 'Ejemplo de Fecha',
             'Email': 'Ejemplo de Email',

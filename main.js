@@ -10,9 +10,9 @@ formulario.addEventListener('submit', (e) => {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            'Nombre Completo': 'Ejemplo de nombre',
-            'Fecha de Nacimiento': 'Ejemplo de Fecha',
-            'Email': 'Ejemplo de Email',
+            'Nombre': 'Ejemplo de Nombre',
+            'Correo': 'Ejemplo de Correo',
+            'Telefono': 'Ejemplo de Telefono',
         })
     });
 })

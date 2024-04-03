@@ -13,7 +13,7 @@ formulario.addEventListener('submit', (e) => {
             'Nombre Completo': 'Ejemplo de nombre',
             'Fecha de Nacimiento': 'Ejemplo de Fecha',
             'Email': 'Ejemplo de Email',
-            'Foto': 'Ejemplo de Foto'
+            'Subir foto': 'Ejemplo de foto'
         })
     });
 })
